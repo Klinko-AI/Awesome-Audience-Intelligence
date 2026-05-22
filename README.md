@@ -1,155 +1,126 @@
-# OPC Growth
+# Awesome Audience Intelligence
 
-OPC Growth is a content repository for one-person companies, solo founders, and independent builders who want to use AI to grow a personal brand, find real users, and build practical monetization paths.
+A curated content repository about using AI to understand audience signals, find real users, and validate monetizable opportunities for one-person companies, solo founders, indie hackers, and creator-led businesses.
 
-The writing is designed for execution, not inspiration.
+This repository is not a generic startup growth library.
 
-It focuses on the questions that matter when you are building alone:
+It focuses on one core question:
 
-- Who should I talk to first?
-- What audience is actually willing to pay?
-- How do I turn AI from a productivity toy into a growth system?
-- How do I create content that compounds into trust, demand, and revenue?
-- What is the lowest-cost path from attention to real money?
+**How do you know which audience is worth building for before wasting time on the wrong product?**
 
-## Positioning
+The articles explore how AI can help independent builders identify high-intent audiences, extract pain language, evaluate payment signals, and turn audience understanding into content, offers, and early revenue.
 
-This repo is built around **OPC**, short for **One-Person Company**.
+## What This Repository Is About
 
-An OPC is not just a freelancer, creator, or indie hacker. It is a business model where one person uses software, AI tools, content, systems, and focused distribution to create leverage without building a traditional team.
+Most solo builders do not fail because they cannot build.
 
-The content strategy is written from the perspective of a creator-strategist who specializes in:
+They fail because they choose an audience that does not feel enough pain, does not have payment intent, or cannot clearly express demand.
 
-- AI-assisted solo business growth
-- Personal brand strategy
-- Audience research and signal extraction
-- Low-cost cold start systems
-- Practical monetization paths
-- Content that converts into trust and demand
+This repository is built around **Audience Intelligence**:
 
-## Writing Style
+- Finding real audience signals instead of relying on vague personas
+- Identifying people with pain, urgency, and willingness to pay
+- Extracting the exact language people use to describe their problems
+- Using AI to cluster audience signals and screen directions faster
+- Turning audience insight into content, offers, interviews, and monetization paths
 
-The style is inspired by the execution-first, first-person writing often seen in Dan Koe's work:
-
-- Direct and practical
-- First-person perspective when useful
-- Strong point of view
-- Clear mental models
-- Short paragraphs
-- No vague motivation
-- No generic AI tool lists
-- Every article should point toward a concrete action, offer, audience, or revenue path
-
-The goal is not to sound clever. The goal is to help an independent builder move.
-
-## Target Readers
+## Who This Is For
 
 This repository is for:
 
 - One-person company builders
 - Solo founders
 - Indie hackers
+- Creator-led founders
 - Consultants turning expertise into products
-- Creators building a personal brand around expertise
-- Builders using AI to reduce cost, increase output, and validate faster
+- Builders using AI to validate markets before building
+- People trying to find their first real users without paid ads
 
-The reader usually has limited time, limited budget, and no team. They need content that helps them decide what to do next.
+The reader usually has limited time, limited budget, and no team.
+
+They need a repeatable way to answer:
+
+- Who should I talk to first?
+- Which audience is most likely to pay?
+- What pain is urgent enough to build around?
+- What words does the audience already use?
+- What content or offer can convert attention into real demand?
 
 ## Core Themes
 
-The articles focus on five recurring themes:
+### 1. Audience Signals
 
-1. **Audience Signals**
+How to judge whether an audience is worth pursuing through:
 
-   How to identify who has real pain, payment intent, urgency, and the language of demand.
+- Payment history
+- Pain intensity
+- Urgency
+- Existing workarounds
+- Repeated public complaints
+- Language patterns
+- Willingness to take action
 
-2. **AI Leverage**
+### 2. AI-Assisted Audience Research
 
-   How to use AI for audience research, content production, workflow design, offer testing, and decision support.
+How AI can help solo builders:
 
-3. **Personal Brand Growth**
+- Cluster audience pain points
+- Extract repeated phrases from comments and interviews
+- Compare multiple audience directions
+- Identify high-intent communities
+- Turn raw quotes into usable insight cards
 
-   How solo founders can turn their thinking, experiments, and proof into a distribution asset.
+### 3. Cold Start
 
-4. **Cold Start**
+How to find the first real users without relying on ads or broad content distribution.
 
-   How to find first users, run interviews, validate demand, and create early traction without ads.
+The focus is not traffic.
 
-5. **Monetization**
+The focus is finding people already struggling with the problem.
 
-   How to move from content and conversations to templates, consulting, small products, subscriptions, or productized services.
+### 4. Content That Converts
 
-## Articles
+How to turn audience language into:
 
-Current English articles:
+- Better headlines
+- Sharper hooks
+- Trust-building content
+- Practical offers
+- Clear calls to action
 
-- [How an OPC Can Use AI to Earn the First ¥100,000](articles/how-an-opc-can-use-ai-to-earn-the-first-100k.md)
-- [Why Most OPCs Fail on Audience Judgment, Not Product](articles/why-most-opcs-fail-on-audience-judgment.md)
-- [OPC Cold Start: How AI Helps You Find Your First Real Users](articles/opc-cold-start-how-ai-helps-you-find-your-first-real-users.md)
+### 5. Monetization Paths
+
+How solo builders can move from audience insight to:
+
+- Templates
+- Consulting
+- Mini-products
+- Productized services
+- Paid calls
+- Subscriptions
+- Early pre-sales
+
+## Article Principles
+
+Every article should:
+
+- Focus on real audience judgment, not broad entrepreneurship advice
+- Treat audience signal as more important than traffic
+- Connect AI to validation, leverage, or monetization
+- Use concrete scenarios instead of abstract personas
+- Help the reader make a decision or take an action
+- Avoid generic AI tool lists
+- Avoid empty motivation
+- Point toward a practical next step
 
 ## Repository Structure
 
 ```text
 articles/
-  Published or publish-ready Markdown articles.
+  Published or publish-ready Markdown articles about audience intelligence, OPC growth, cold start, and AI-assisted validation.
 
-prompts/
-  Prompt templates for topic selection, outlines, and article generation.
+README.md
+  Repository positioning and content direction.
 
-src/
-  Local helper scripts for AI text and image generation.
-
-scripts/
-  Utility scripts for media and publishing workflows.
-
-docs/
-  Internal workflow notes and automation documentation.
-```
-
-## Content Principles
-
-Every article should pass these checks:
-
-- It speaks to a real OPC problem, not a broad entrepreneurship topic.
-- It helps the reader make a decision or take an action.
-- It connects AI to leverage, growth, or revenue instead of novelty.
-- It uses concrete scenarios instead of abstract personas.
-- It treats audience signal as more important than traffic.
-- It avoids empty motivation and focuses on execution.
-
-## Suggested GitHub Usage
-
-Use `articles/` as the public article library.
-
-Each article should be one Markdown file with:
-
-- A clear H1 title
-- Short paragraphs
-- Scannable H2 sections
-- No Notion metadata
-- No image generation prompts
-- No internal pipeline JSON
-
-If this later becomes a website, the clean migration path is to move article files into a static-site content folder such as:
-
-```text
-content/posts/
-```
-
-Then add frontmatter for title, date, description, tags, and canonical URL.
-
-## About the Pipeline
-
-This repository also contains internal tooling for a Notion-based content workflow. The public-facing output is the Markdown article library in `articles/`.
-
-The intended flow is:
-
-```text
-Notion research and planning
--> outline generation
--> article drafting
--> cleanup and translation
--> GitHub-ready Markdown
-```
-
-The pipeline exists to support consistent publishing, but the core asset is the thinking: practical, signal-driven content for OPC growth.
+LICENSE
+  License file.
